@@ -146,7 +146,7 @@ plot_heatmap_pdf <- function(outdir="output"){
   pal <- colorpanel(100, low = "cyan", mid = "black", high = "yellow")
   
   # ---- 7. Draw heatmap ----------------------------------------
-  out_pdf <- file.path(analysis_dir, "heatmap_yeast_cell-cycle.pdf")
+  out_pdf <- file.path(outdir, "heatmap_yeast_cell-cycle.pdf")
   
   pdf(out_pdf, width = 7, height = 9)
   
