@@ -108,8 +108,8 @@ plot_heatmap_pdf <- function(outdir="output"){
     check.names  = FALSE
   )
   
-  if (!dir.exists(out_dir)) {
-    dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+  if (!dir.exists(outdir)) {
+    dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
   }
   # Dimensions: 1705 genes × 50 samples (SRR accessions)
   
